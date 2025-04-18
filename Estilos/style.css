@@ -38,9 +38,10 @@ header {
 h1 {
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-family: "Caveat", "Poppins", Arial, Helvetica, sans-serif;
     font-size: 2.4em;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -161,5 +162,29 @@ footer {
 @media screen and (max-width:390px) {
     nav a {
         font-size: 10.6pt;
+    }
+
+    h1 {
+        font-size: 2em;
+        padding: 5px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+    section {
+        padding: 8px;
+        margin: 10px;
+        border-radius: 8px;
+    }
+}
+
+@media print {
+    nav {
+        display: none;
+    }
+
+    p {
+        padding: 8px;
     }
 }
