@@ -172,10 +172,15 @@ footer {
     h2 {
         font-size: 1.5em;
     }
+
     section {
         padding: 8px;
         margin: 10px;
         border-radius: 8px;
+    }
+
+    footer > p {
+        font-size: .85em;
     }
 }
 
